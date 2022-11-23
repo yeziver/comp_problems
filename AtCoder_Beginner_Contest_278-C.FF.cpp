@@ -13,13 +13,12 @@ int main(void) {
     vector<vector<int>> follows;
     vector<vector<int>> data;
 
-    for (int i = 0; i < q; i++) {
+    for (int i = 0; i < q; i++) {  //creates the matrix of given input
         int a, b, c;
         cin >> a >> b >> c;
         vector<int> urmom = {a, b, c};
         data.push_back(urmom);
     }
-
 
     for (int i = 0; i < q; i++) {
             int t, a, b;
